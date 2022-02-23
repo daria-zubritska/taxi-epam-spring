@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
+* { padding: 0; margin: 0; }
+body { background: #1abc9c; font-family: 'Lato', sans-serif; text-transform: uppercase; letter-spacing: 1px;}
+
+header {
+    display: table;
+    padding: 2em 5%;
+    background: #2c3e50;
+    color: #fff;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cadetblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+header nav,
+header div {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    height: 8em;
+}
+
+header nav {
+    text-align: right;
+}
+
+@media screen and (max-width: 720px) {
+    header {
+        height: auto;
+    }
+
+    header > div,
+    header > div h1,
+    header nav {
+        height: auto;
+        width: auto;
+        display: block;
+    }
+}

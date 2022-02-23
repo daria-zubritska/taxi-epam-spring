@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="taxi-spring:war">
+    <output-path>$PROJECT_DIR$/taxi-spring/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>taxi-spring</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="taxi-spring-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="taxi-spring:war exploded" />
+    </root>
+  </artifact>
+</component>
